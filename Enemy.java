@@ -6,6 +6,11 @@ public class Enemy {
     private int hp;
     private Player player;
 
+    public Enemy() {
+        name = "";
+        hp = 0;
+    }
+
     public Enemy(String name) {
         this.name = name;
         hp = 10;
